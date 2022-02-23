@@ -1,0 +1,178 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    position: absolute;
+}
+
+.maindiv{
+    width: 1200px;
+   margin: 0px auto 0px auto;
+   text-align: justify;
+   background-image: url(image.jpg);
+}
+
+.menu{
+    position: relative;
+}
+
+.menu1{
+    list-style-type: none;
+    margin: 50px auto 0px 0px;
+    width: 1000px;
+    height: 40px;
+    background-color: black;
+    float: left;
+}
+
+.menu1 li{
+float: left;
+border-right: 1px solid rgb(241, 227, 227);
+position: relative;
+}
+
+.menu1 li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    display: block;
+
+}
+.menu1 li:last-child{
+    border-right: none;
+}
+
+.menu1 li a:hover{
+    background-color: coral;
+    color:black;
+
+
+
+}
+.menu2{
+    list-style-type: none;
+    position: absolute;
+    left: -990px;
+}
+
+.menu1 li:hover .menu2{
+    left: 0px;
+}
+
+.menu2 li{
+    float: none;
+    width: 200px;
+    border-right: none;
+    border-top: 1px solid white;
+    /* border-bottom: 1px solid white; */
+    position: relative;
+    
+}
+.menu2 li:first-child{
+    border-top: none;
+}
+
+
+.menu3{
+    list-style-type: none;
+    position: absolute;
+    top: -990px;}
+    
+
+.menu2 li:hover .menu3{
+    top: 0px;
+    left: 200px;
+
+}
+
+.one{
+    margin: 150px 60px 0px 60px;
+}
+
+.one h1{
+    text-align: center;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+
+
+.src{
+    float: right;
+    
+    background-color:white;
+    position: absolute;
+    
+}
+
+.src button{
+    padding: 10px 20px;
+}
+input{
+    padding:10px 20px;
+border-radius: 5px;
+border: 1px solid black;
+}
+
+
+.paragraph{
+    width: 500px;
+    height: 400px;
+    background-image: url(image.jpg);
+    float: left;
+    margin: 50px 40px;
+    overflow: scroll;
+    
+}
+.paragraph > p{
+   
+    padding: 20px;
+    text-align: justify;
+ 
+}
+
+
+.div1{
+   width: 400px;
+   height: 300px;
+   background-color: black;
+ 
+   float: left;
+   cursor: pointer;
+  border-radius: 50%;
+  animation-name: animate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+position: relative;
+
+  
+
+}
+.div2 > h2{
+    color: white;
+    padding-top: 30%;
+    text-align: center;
+    font-size: 50px;
+}
+
+@keyframes animate{
+    0%{top:0px;left: 0px;}
+25%{top: 0px;left: 400px;}
+50%{top: 400px;left: 400px;}
+75%{top: 400px;left: 0px;}
+100%{top:0px;left: 0px;}
+    
+   
+}
+
+.div3 > audio{
+    float: left;
+    margin-top: 300px;
+    margin-right: 400px;
+    width: 400px;
+    height: 50px;
+}
+
